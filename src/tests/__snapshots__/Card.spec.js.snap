@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders correctly 1`] = `
+"<div class="card">
+  <div class="container_avatar-funcionario"><img src="path/to/avatar.png" alt="Avatar do funcionário">
+    <div class="info-funcionarios_status"><span class="bandeira_ativo bandeira">ativo</span></div>
+  </div>
+  <div class="info_home container_info-funcionario">
+    <div class="info-funcionario_nome">
+      <h3>John Doe</h3>
+    </div>
+    <div class="info-funcionario_cod">
+      <p>Código: 12345</p>
+    </div>
+    <div class="info_acao-funcionario"><button>Ver mais</button></div>
+  </div>
+</div>"
+`;
+
+exports[`Card.vue renders correctly with basic props 1`] = `
+"<div class="card">
+  <div class="container_avatar-funcionario"><img src="https://example.com/avatar.jpg" alt="Avatar do funcionário">
+    <div class="info-funcionarios_status"><span class="bandeira_ativo bandeira">ativo</span></div>
+  </div>
+  <div class="info_detalhes container_info-funcionario">
+    <div class="info-funcionario_nome">
+      <h3>Fulano da Silva</h3>
+    </div>
+    <div class="info-funcionario_cod">
+      <p>Código: 12345</p>
+    </div>
+    <div class="info_acao-funcionario">
+      <!--v-if-->
+    </div>
+  </div>
+</div>"
+`;
